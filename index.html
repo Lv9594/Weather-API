@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather Forcast</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" type='text/css' media='screen'
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='style.css'>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1 class="heading ">
+                Weather Forcast
+            </h1>
+        </div>
+    </header>
+    <div class="container">
+        <header class="header">
+            <div class="search">
+                <input type="text" placeholder="Enter City Name" id="search-txt">
+                <a id="search-btn" href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </header>
+
+        <main id="main">
+
+            <div class="city-icon">
+                <div class="city-icon-holder">
+                    <div id="city-name"></div>
+                    <img src="" alt="" id="icon">
+                </div>
+            </div>
+
+            <div class="temperature">
+                <div id="temp"></div>
+            </div>
+
+            <div class="humidity">
+                <div id="humidity-div"></div>
+            </div>
+
+        </main>
+
+    </div>
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+
+    <script src='index.js'></script>
+
+</body>
+
+</html>
